@@ -11,6 +11,7 @@ import post from './documents/post'
 import siteSettings from './documents/siteSettings'
 
 // Object types
+// these are smaller than documents, but can be used as fields in documents
 import bodyPortableText from './objects/bodyPortableText'
 import bioPortableText from './objects/bioPortableText'
 import excerptPortableText from './objects/excerptPortableText'

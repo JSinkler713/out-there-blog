@@ -4,6 +4,7 @@
 .root {
   position: relative;
   z-index: 100;
+  background-color: #FCFAF1;
 }
 
 .wrapper {
@@ -21,6 +22,8 @@
 .branding {
   font-weight: 600;
   flex: 1;
+  font-family: Spectral;
+  font-size: clamp(28px, 2rem, 48px);
 
   @nest & a {
     display: inline-block;

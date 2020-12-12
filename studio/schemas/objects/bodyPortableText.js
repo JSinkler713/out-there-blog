@@ -45,6 +45,8 @@ export default {
     // You can add additional types here. Note that you can't use
     // primitive types such as 'string' and 'number' in the same array
     // as a block type.
+    // this allows you to hit + and add an image in the body part of the post
+    // pretty cool nesting, very little code.
     {
       type: 'mainImage',
       options: {hotspot: true}
